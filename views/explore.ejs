@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="explore.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="post-view-div">
+        <div class="close-btn" onclick="hide()">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="post-view-left">
+           <img class="img" src="https://mir-s3-cdn-cf.behance.net/projects/404/d9fa9a125937929.Y3JvcCwxNDAwLDEwOTUsMCwxMDAx.jpg" alt="">
+        </div>
+        <div class="post-view-right">
+           <div class="post-owner">
+            <div class="post-owner-img">
+                <img class="img border50" src="https://mir-s3-cdn-cf.behance.net/projects/404/d9fa9a125937929.Y3JvcCwxNDAwLDEwOTUsMCwxMDAx.jpg" alt="">
+            </div>
+            <div class="post-owner-name">
+              <div class="post-owner-name-1">
+                <span>the_aarjun_slays</span><span> . </span> <span>Follow</span>
+              </div>
+              <div class="post-owner-name-2">
+                <span>Original audio</span>
+              </div>
+            </div>
+            <div class="post-owner-3dot">
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+           </div>
+           <div class="post-bottom">
+              <div class="post-icon">
+                 <div class="post-i-l">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-regular fa-comment"></i>
+                    <i class="fa-regular fa-paper-plane"></i>
+                 </div>
+                 <div class="post-i-r">
+                    <i class="fa-regular fa-bookmark"></i>
+                 </div>
+              </div>
+              <div class="post-liked">aksksk</div>
+              <div class="post-day">3 days</div>
+              <div class="comment-div">
+                <div class="emoji"><i class="fa-regular fa-face-smile"></i></div>
+                <div class="comment"><textarea name="" id="" cols="30" rows="10" placeholder="Add comment"></textarea></div>
+                <div class="post-btn">Post</div>
+              </div>
+           </div>
+        </div>
+    </div>
+    <%- include("navbarhead.ejs") %>
+    <%- include("side.ejs") %>
+    <div class="explore-div">
+       <div class="explores">
+            <div class="explore " onclick="hide()">
+                <img class="img" src="https://mir-s3-cdn-cf.behance.net/projects/404/d9fa9a125937929.Y3JvcCwxNDAwLDEwOTUsMCwxMDAx.jpg" alt="">
+            </div>
+            <div class="explore"></div>
+            <div class="explore explore-span"></div>
+            <div class="explore"></div>
+            <div class="explore"></div>
+       </div>
+       <div class="explores">
+        <div class="explore"></div>
+        <div class="explore"></div>
+        <div class="explore explore-span"></div>
+        <div class="explore"></div>
+        <div class="explore"></div>
+   </div>
+   <div class="explores">
+    <div class="explore"></div>
+    <div class="explore"></div>
+    <div class="explore explore-span"></div>
+    <div class="explore"></div>
+    <div class="explore"></div>
+</div>
+    </div>
+    <%- include("navB.ejs") %>
+    <script src="explore.js"></script>
+</body>
+</html>

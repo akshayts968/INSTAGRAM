@@ -1,0 +1,145 @@
+.explore-div{
+    width: 963px;
+    height: 100vh;
+    background: #0d9a41;
+    margin: auto;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}
+.explores{
+    display: grid;
+    grid-template-columns: 32.91692627% 32.91692627% 32.91692627%; /* Three columns */
+    grid-template-rows: auto auto;
+    row-gap: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.explore{
+    width: 100%;
+    aspect-ratio: 1;
+    background: #ae1818;
+}
+.explore-span{
+    grid-row: span 2;
+    height: 100%;
+}
+/*
+.explores-reverse{
+    display: flex;
+  flex-direction: row-reverse;
+}*/
+
+
+.post-view-div{
+    width: 90vw;
+    height: 95vh;
+    margin: auto;
+    overflow: hidden;
+    background-color: #4a18ae;
+    position: absolute;
+    display: none;
+}
+.post-view-left{
+    width: 58.5416667%;
+    height: 100vh;
+    background-color: deepskyblue;
+}
+.post-view-right{
+    flex-grow: 1;
+    background-color: rgb(103, 5, 82);
+    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+.post-owner{
+    width:100%;
+    height: 42px;
+    padding: 14px 4px 16px;
+    display: flex;
+}
+.post-owner-img{
+    width: 42px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.post-owner-name{
+    flex-grow: 1;
+  margin-left: 10px;
+}
+.post-owner-3dot{
+    width: 40px;
+    aspect-ratio: 1;
+    padding-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.post-icon{
+    padding: 6px 16px 8px;
+    height: 40px;
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.post-liked{
+    font-size: 14px;
+    font-weight: 400;
+    line-height:18px;
+    padding-left: 16px;
+}
+.post-day{
+    color: rgb(168, 168, 168);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 16px;
+    margin-bottom: 16px;
+}
+.post-icon i{
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+    padding: 8px;
+    color: rgb(245, 245, 245);
+    cursor: pointer;
+  }
+  .comment-div{
+    display: flex;
+  gap: 10px;
+  }
+  .comment textarea{
+    width: auto;
+  height: 18px;
+  background: black;
+  border: navajowhite;
+  }
+.close-btn i{
+    font-size: 30px;
+}
+.close-btn{
+    order: 1;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+@media screen and (max-width: 1046px) {
+    .explore-div{
+        flex-grow: 1;
+        margin-right: 12px;
+    }
+    .explores{
+        justify-content: space-around;
+    }
+}
+@media  screen and (max-width: 765px) {
+    .explore-div{
+        width: 100vw;
+    }
+    
+}

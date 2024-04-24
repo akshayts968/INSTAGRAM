@@ -47,6 +47,10 @@ app.get("/home",(req,res)=>{
     res.render("sidenavbar.ejs");
     //res.render("profile.ejs");
 });
+app.get("/explore",(req,res)=>{
+    res.render("explore.ejs");
+    //res.render("profile.ejs");
+});
 app.listen(8080, () => {
     console.log("server is listening to port 8080");
 });

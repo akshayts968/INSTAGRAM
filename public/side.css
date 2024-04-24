@@ -12,6 +12,7 @@ body{
     height: 100vh;
     display: flex;
     background-color: black;
+    justify-content: center;
 }
 .sidenavbar{
     width: 220px;
