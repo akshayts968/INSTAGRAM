@@ -33,6 +33,7 @@
 
 
 .post-view-div{
+    max-width: 1131.45px;
     z-index: 1;
     width: 90vw;
     height: 95vh;
