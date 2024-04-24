@@ -33,6 +33,7 @@
 
 
 .post-view-div{
+    z-index: 1;
     width: 90vw;
     height: 95vh;
     margin: auto;
