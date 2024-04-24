@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbarBottom{
+    display: none;
+}
+@media screen and (max-width: 766px) {
+    .navbarBottom{
+        width:100vw;
+        height: 44px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+       /* position: absolute;
+        bottom: 0;*/
+    }
+    .bottom-icons-sm{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(245, 245, 245);
+        cursor: pointer;
+    }
+    .bottom-icons-sm i{
+        height: 24px;
+        padding: 12px;
+        font-size: 24px;
+        color: rgb(245, 245, 245);
+        cursor: pointer;
+    }
+  }

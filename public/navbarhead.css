@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbarHeader{
+    display: none;
+}
+@media screen and (max-width: 766px) {
+    .navbarHeader{
+        width:100vw;
+        height: 44px;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+    }
+    .insta-name-sm{
+        display: flex;
+        height: 100%;
+        color: rgb(245, 245, 245);
+        cursor: pointer;
+    }
+    .head{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .top-left-icons i{
+        height: 24px;
+        padding: 12px;
+        font-size: 24px;
+        color: rgb(245, 245, 245);
+        cursor: pointer;
+    }
+  }
